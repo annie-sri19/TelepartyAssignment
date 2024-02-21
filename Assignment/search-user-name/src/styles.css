@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Body background color */
+body {
+    background-color: #f4f7f6;
+  }
+  
+  /* Container background color */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center; /* Center-align content within container */
+  }
+  
+  /* Adjust width of input and container */
+  .search-input {
+    width: calc(100% - 1rem); /* Adjust width */
+    padding: 10px;
+    margin-right: 10px; /* Add space between input and icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the search icon */
+  .search-input::placeholder {
+    color: #777; /* Gray color for placeholder text */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #ff0000; /* Red color for error messages */
+  }
+  
+  /* Table styles */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header styles */
+  .user-table th {
+    background-color: #5eba7d; /* Light green color for table header */
+    color: #ffffff; /* White color for table header text */
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Table cell styles */
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Avatar image styles */
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Alternating row colors */
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f4f7f6; /* Light gray background color for even rows */
+  }
+  
